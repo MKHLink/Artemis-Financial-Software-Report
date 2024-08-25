@@ -1,0 +1,7 @@
+### Artemis Financial is a consulting company that develops financial plans for its clients. They are looking to modernize thier system and also incorporate the lastes security practices and features within their application. Many outdated dependencies were updated to their latest version in their application and practices such as encapsulation were added in. This protects the company's data and ensure no data was being access in an unintended manner.
+
+### Suppressing the false reports were a bit tricky as sometimes it was hard to gauge if a dependency warning was indeed false or if it was necessary to update said dependency.
+
+### I introduced a hasing algorithm in their code to encrypt any outgoing data, this combined with encapsulation of their models increased the layers of security. In the future, I would rely on similar dependency checking tools to assess vulnerabilities. The application was tested thoroughly upon refactoring to ensure proper functionality, and the dependcy checker was ran to make sure no new vulnerable dependencies were introduced as a part of the refactor.
+
+### The dependecy checking tool and hashing algorithms are goung to be very helpful in future projects. I would showcase the refactor work to encapsulate data using private modifies, suppress.xml to hide false warnings and the SHA-2 algorithm to hash data to showcase the expertise that went into mordernizing this application.
